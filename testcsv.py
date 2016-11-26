@@ -12,5 +12,5 @@ class CsvTestCase(unittest.TestCase):
         self.assertNotIn("The Institute of Cancer Research", self.withBlock)
         self.assertIn("The Institute of Cancer Research", self.sansBlock)
 
-unittest.main()
+unittest.main(exit=False, verbosity=2)
 
